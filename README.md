@@ -2,6 +2,7 @@
 Sample App with GraphQL Real-Time Subscriptions with AppSync
 
 npm install -g @aws-amplify/cli
+
 npm install -g create-react-app
 
 1. create-react-app broadcaster
