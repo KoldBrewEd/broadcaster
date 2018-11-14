@@ -1,9 +1,12 @@
 # broadcaster
 Sample App with GraphQL Real-Time Subscriptions with AppSync
 
-https://github.com/aws-amplify/amplify-cli
+npm install -g @aws-amplify/cli
+npm install -g create-react-app
 
-1. amplify init
-2. amplify add api
-3. amplify add hosting
-4. amplify push
+1. create-react-app broadcaster
+2. npm install
+3. amplify init
+4. amplify add api
+5. amplify add hosting
+6. amplify push
