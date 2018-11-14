@@ -6,8 +6,9 @@ npm install -g @aws-amplify/cli
 npm install -g create-react-app
 
 1. create-react-app broadcaster
-2. npm install
-3. amplify init
-4. amplify add api
-5. amplify add hosting
-6. amplify push
+2. replace src/App.js and package.json
+3. npm install
+4. amplify init
+5. amplify add api
+6. amplify add hosting
+7. amplify push
