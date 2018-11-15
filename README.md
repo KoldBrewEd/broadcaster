@@ -11,4 +11,4 @@ npm install -g create-react-app
 4. amplify init
 5. amplify add api (with API Key and schema.graphql above)
 6. amplify add hosting
-7. amplify push
+7. amplify publish
