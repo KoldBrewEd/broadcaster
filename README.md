@@ -32,7 +32,7 @@ The API access is authenticated via API Key valid for 7 days. The demo takes adv
     amplify init
     ```
 
-5. Add an AppSync GraphQL API with API Key for the API Authentication. Follow the default options. When prompted with "Do you have an annotated GraphQL schema?", select "YES" and provide the schema file `schema.graphql`. It will use a [GraphQL Transform](https://aws-amplify.github.io/docs/cli/graphql?sdk=js) directive [@model](https://aws-amplify.github.io/docs/cli/graphql?sdk=js#model) to deploy and configure a DynamoDB table to store messages:
+5. Add an AppSync GraphQL API with API Key for the API Authentication. Follow the default options. When prompted with "Do you have an annotated GraphQL schema?", select "YES" and provide the schema in the file `schema.graphql`. It will use a [GraphQL Transform](https://aws-amplify.github.io/docs/cli/graphql?sdk=js) directive [@model](https://aws-amplify.github.io/docs/cli/graphql?sdk=js#model) to deploy and configure a DynamoDB table to store messages:
 
     ```bash
     amplify add api
