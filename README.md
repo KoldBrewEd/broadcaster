@@ -53,7 +53,7 @@ The API access is authenticated via API Key valid for 7 days. The demo takes adv
 
 ## Using it with the [Amplify Console](https://aws.amazon.com/amplify/console/)
 
-1. Fork the repository https://github.com/awsed/appsync-broadcaster-sar to your own GitHub account
+1. Fork this repository into your own GitHub account
 2. Repeats the steps above using the Amplify CLI with multienv support:
 
     ```bash
