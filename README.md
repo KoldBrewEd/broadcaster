@@ -44,7 +44,7 @@ The API access is authenticated via API Key valid for 7 days. The demo takes adv
     amplify add hosting
     ``` 
 
-    from the project's root folder and follow the prompts to create an S3 bucket (DEV) and/or a CloudFront distribution (PROD). More info on the [Amplify CLI docs](https://aws-amplify.github.io/docs/cli/hosting?sdk=js).
+    from the project's root folder and follow the prompts to create an S3 bucket (DEV) and/or a CloudFront distribution (PROD). If you are deploying a CloudFront distribution, be mindful it needs to be replicated across all points of presence globally and it might take up to 15 minutes to do so. More info on the [Amplify CLI docs](https://aws-amplify.github.io/docs/cli/hosting?sdk=js).
 7. Build, deploy, upload and publish the application with a single command:
 
    ```bash
