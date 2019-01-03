@@ -54,7 +54,7 @@ The API access is authenticated via API Key valid for 7 days. The demo takes adv
 ## Using it with the [Amplify Console](https://aws.amazon.com/amplify/console/)
 
 1. Fork this repository into your own GitHub account
-2. Repeats the steps above using the Amplify CLI with multienv support:
+2. Repeat the steps above using the Amplify CLI with multienv support:
 
     ```bash
     npm install -g @aws-amplify/cli@multienv
