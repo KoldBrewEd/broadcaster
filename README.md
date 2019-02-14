@@ -32,7 +32,7 @@ The API access is authenticated via API Key valid for 7 days. The demo takes adv
     amplify init
     ```
 
-5. Add an AppSync GraphQL API with API Key for the API Authentication. Follow the default options. When prompted with "Do you have an annotated GraphQL schema?", select "YES" and provide the schema in the file `schema.graphql`. It will use a [GraphQL Transform](https://aws-amplify.github.io/docs/cli/graphql?sdk=js) directive [@model](https://aws-amplify.github.io/docs/cli/graphql?sdk=js#model) to deploy and configure a DynamoDB table to store messages:
+5. Add an AppSync GraphQL API with API Key for the API Authentication. Follow the default options. When prompted with "Do you have an annotated GraphQL schema?", select "NO" and copy/paste the schema from the file `schema.graphql` in this repo. It will use a [GraphQL Transform](https://aws-amplify.github.io/docs/cli/graphql?sdk=js) directive [@model](https://aws-amplify.github.io/docs/cli/graphql?sdk=js#model) to deploy and configure a DynamoDB table to store messages:
 
     ```bash
     amplify add api
@@ -51,13 +51,14 @@ The API access is authenticated via API Key valid for 7 days. The demo takes adv
    amplify publish
    ```
 
-## Using it with the [Amplify Console](https://aws.amazon.com/amplify/console/)
+## Full Setup with the [Amplify Console](https://aws.amazon.com/amplify/console/)
 
 1. Fork this repository into your own GitHub account
-2. Commit the changes to your forked repository. A new folder `amplify` will be commited with the project details.
-3. Connect your repository to the [Amplify Console](https://console.aws.amazon.com/amplify/home?#/create) as per the instructions [here](https://docs.aws.amazon.com/amplify/latest/userguide/getting-started.html), making sure the name of the branch in your repository matches the name of the environment configured on `amplify init` (i.e. master). When prompted with "_We detected a backend created with the Amplify Framework. Would you like Amplify Console to deploy these resources with your frontend?_", select **"YES"** and provide or create an IAM role with appropriate permissions to build the backend resources
-4. Wait for the build, deployment and verification steps
-5. Deploy and access your app (xxxxxxxx.amplifyapp.com)
+2. Repeat the steps above
+3. Commit the changes to your forked repository. A new folder `amplify` will be commited with the project details.
+4. Connect your repository to the [Amplify Console](https://console.aws.amazon.com/amplify/home?#/create) as per the instructions [here](https://docs.aws.amazon.com/amplify/latest/userguide/getting-started.html), making sure the name of the branch in your repository matches the name of the environment configured on `amplify init` (i.e. master). When prompted with "_We detected a backend created with the Amplify Framework. Would you like Amplify Console to deploy these resources with your frontend?_", select **"YES"** and provide or create an IAM role with appropriate permissions to build the backend resources
+5. Wait for the build, deployment and verification steps
+6. Deploy and access your app (xxxxxxxx.amplifyapp.com)
 
 
 
