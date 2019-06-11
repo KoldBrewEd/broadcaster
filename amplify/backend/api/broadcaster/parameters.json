@@ -1,0 +1,4 @@
+{
+    "AppSyncApiName": "broadcaster",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST"
+}
