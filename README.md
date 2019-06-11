@@ -14,7 +14,7 @@ The API access is authenticated via API Key valid for 7 days. The demo takes adv
 ## Deploy, Build and Host with One-Click to the Amplify Console
 
 <p align="center">
-    <a href="https://console.aws.amazon.com/amplify/home#/deploy?repo=awsed/broadcaster">
+    <a href="https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/awsed/broadcaster">
         <img src="https://oneclick.amplifyapp.com/button.svg" alt="Deploy to Amplify Console">
     </a>
 </p>
